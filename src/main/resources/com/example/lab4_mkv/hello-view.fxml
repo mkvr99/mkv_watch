@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.lab4_mkv.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <ImageView fx:id="imageView" fitHeight="423.0" fitWidth="585.0" pickOnBounds="true" preserveRatio="true" />
+    <HBox alignment="TOP_CENTER" prefHeight="57.0" prefWidth="660.0">
+        <Button fx:id="start" mnemonicParsing="false" onAction="#start" text="Старт">
+            <HBox.margin>
+                <Insets top="15.0" />
+            </HBox.margin></Button>
+        <Button fx:id="forward" onAction="#forward" text="Вперед">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></Button>
+        <Button fx:id="back" mnemonicParsing="false" onAction="#back" text="Назад">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></Button>
+        <Button fx:id="pause" mnemonicParsing="false" onAction="#pause" text="Пауза">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></Button>
+        <Button fx:id="stop" mnemonicParsing="false" onAction="#stop" text="Стоп">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></Button>
+        <TextField fx:id="field">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></TextField>
+        <Button fx:id="time" mnemonicParsing="false" onAction="#settime" text="Время">
+            <HBox.margin>
+                <Insets left="5.0" top="15.0" />
+            </HBox.margin></Button>
+    </HBox>
+</VBox>
