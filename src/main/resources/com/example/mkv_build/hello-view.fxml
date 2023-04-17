@@ -14,4 +14,18 @@
             <Insets bottom="20.0" left="240.0" top="10.0" />
          </BorderPane.margin></Button>
    </bottom>
+   <top>
+      <Button fx:id="time" mnemonicParsing="false" text="Время" BorderPane.alignment="CENTER" onAction="#time">
+         <graphic>
+            <TextField fx:id="field">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </TextField>
+         </graphic>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </Button>
+   </top>
 </BorderPane>

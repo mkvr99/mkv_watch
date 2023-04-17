@@ -2,19 +2,36 @@
 
 title __MKV_BUILD's Class Diagram__\n
 
-
+  namespace  {
+    namespace om.example.mkv_build {
       class com.example.mkv_build.HelloApplication {
           {static} + main()
           + start()
       }
+    }
+  }
+  
 
-
-
+  namespace  {
+    namespace om.example.mkv_build {
       class com.example.mkv_build.HelloController {
+          + field : TextField
           + pane : Pane
+          ~ growth : double
+          ~ tempWidght : double
+          - currentTime : LocalTime
+          - gr : double
+          - startTime : LocalTime
+          - targetTime : LocalTime
+          - tempDuration : Duration
+          - timeline : Timeline
           + press_one()
+          + time()
+          - start()
+          - stop()
       }
-
+    }
+  }
   
 
   com.example.mkv_build.HelloApplication -up-|> javafx.application.Application

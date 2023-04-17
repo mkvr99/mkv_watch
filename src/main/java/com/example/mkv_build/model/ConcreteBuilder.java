@@ -27,13 +27,13 @@ public class ConcreteBuilder implements Builder{
         this.indicator.getRectangle_indicator().setFill(Color.DARKOLIVEGREEN);
     }
 
-    public void drawStartStopLabel(int x_start, int y_start, String text_start, int x_point, int y_point, String text_point, int x_end, int y_end, String text_end) {
+    public void drawStartStopLabel(int x_start, int y_start, String text_start, int x_end, int y_end, String text_end) {
         this.indicator.getLabel_start().setLayoutX((double)x_start);
         this.indicator.getLabel_start().setLayoutY((double)y_start);
         this.indicator.getLabel_start().setText(text_start);
-        this.indicator.getLabel_point().setLayoutX((double)x_point);
-        this.indicator.getLabel_point().setLayoutY((double) y_point);
-        this.indicator.getLabel_point().setText(text_point);
+//        this.indicator.getLabel_point().setLayoutX((double)x_point);
+//        this.indicator.getLabel_point().setLayoutY((double) y_point);
+//        this.indicator.getLabel_point().setText(text_point);
         this.indicator.getLabel_end().setLayoutX((double)x_end);
         this.indicator.getLabel_end().setLayoutY((double)y_end);
         this.indicator.getLabel_end().setText(text_end);

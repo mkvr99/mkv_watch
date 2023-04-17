@@ -4,7 +4,7 @@ title __MODEL's Class Diagram__\n
 
 
       namespace model {
-        interface com.example.mkv_build.model.Builder {
+        interface Builder {
             {abstract} + build()
             {abstract} + drawRectBackground()
             {abstract} + drawRectIndicator()
@@ -17,7 +17,7 @@ title __MODEL's Class Diagram__\n
 
 
       namespace model {
-        class com.example.mkv_build.model.ConcreteBuilder {
+        class ConcreteBuilder {
             - ktemp : int
             - start : float
             - stop : float
@@ -34,8 +34,9 @@ title __MODEL's Class Diagram__\n
 
 
       namespace model {
-        class com.example.mkv_build.model.Director {
+        class Director {
             + Director()
+            + construct()
             + construct()
         }
       }
@@ -44,7 +45,7 @@ title __MODEL's Class Diagram__\n
 
 
       namespace model {
-        class com.example.mkv_build.model.Indicator {
+        class Indicator {
             - label_end : Label
             - label_point : Label
             - label_start : Label

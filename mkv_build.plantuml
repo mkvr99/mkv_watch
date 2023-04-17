@@ -3,57 +3,44 @@
 title __MKV_BUILD's Class Diagram__\n
 
 
-    namespace om.example.mkv_build {
       class com.example.mkv_build.HelloApplication {
       }
-    }
 
   
 
 
-    namespace om.example.mkv_build {
       class com.example.mkv_build.HelloController {
       }
-    }
 
   
 
 
-    namespace om.example.mkv_build {
       namespace model {
         interface com.example.mkv_build.model.Builder {
         }
       }
-    }
-
-  
 
 
-    namespace om.example.mkv_build {
+
       namespace model {
         class com.example.mkv_build.model.ConcreteBuilder {
         }
       }
-    }
 
   
 
 
-    namespace om.example.mkv_build {
       namespace model {
         class com.example.mkv_build.model.Director {
         }
       }
-    }
 
+  
 
-
-    namespace om.example.mkv_build {
       namespace model {
         class com.example.mkv_build.model.Indicator {
         }
       }
-    }
 
   
 

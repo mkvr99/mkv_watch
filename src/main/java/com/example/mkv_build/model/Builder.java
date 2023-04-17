@@ -5,7 +5,7 @@ public interface Builder {
 
     void drawRectIndicator(int x, int y, int height, int weight);
 
-    void drawStartStopLabel(int x_1, int y_1, String text_1, int x_2, int y_2, String text_2, int x_3, int y_3, String text_3);
+    void drawStartStopLabel(int x_1, int y_1, String text_1, int x_3, int y_3, String text_3);
 
     void drawTitle(int x, int y, String text);
 

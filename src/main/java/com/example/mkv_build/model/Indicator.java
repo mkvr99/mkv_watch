@@ -9,7 +9,6 @@ public class Indicator {
 
     private Rectangle rectangle_background = new Rectangle();
     private Label label_start = new Label();
-
     private Label label_point=new Label();
     private Label label_end = new Label();
     private Label label_title = new Label();
@@ -61,12 +60,10 @@ public class Indicator {
     }
 
     public Label getLabel_start() {
-
         return this.label_start;
     }
 
     public void setLabel_start(Label label_start) {
-
         this.label_start = label_start;
     }
 
@@ -74,7 +71,6 @@ public class Indicator {
     }
 
     public void add(Pane pane) {
-
         this.panel.getChildren().add(pane);
     }
 
@@ -83,7 +79,7 @@ public class Indicator {
         pane.getChildren().add(this.rectangle_background);
         pane.getChildren().add(this.rectangle_indicator);
         pane.getChildren().add(this.label_start);
-        pane.getChildren().add(this.label_point);
+        //pane.getChildren().add(this.label_point);
         pane.getChildren().add(this.label_end);
         pane.getChildren().add(this.label_title);
     }
