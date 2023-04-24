@@ -11,6 +11,12 @@ target/
 *.iws
 *.iml
 *.ipr
+mvnw.cmd
+mvnw
+pom.xml
+.mvn
+mkv_watch.plantuml
+.idea
 
 ### Eclipse ###
 .apt_generated
