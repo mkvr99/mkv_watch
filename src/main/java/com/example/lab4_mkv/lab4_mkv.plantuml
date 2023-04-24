@@ -25,9 +25,7 @@ title __LAB4_MKV's Class Diagram__\n
           + start()
           + stop()
           # onHelloButtonClick()
-      }
-
-  
+}
 
   com.example.lab4_mkv.HelloApplication -up-|> javafx.application.Application
   com.example.lab4_mkv.HelloController .up.|> javafx.fxml.Initializable

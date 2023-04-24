@@ -10,40 +10,34 @@ title __LAB4_MKV's Class Diagram__\n
 
   
 
-
     namespace om.example.lab4_mkv {
       class com.example.lab4_mkv.HelloController {
       }
-    }
+      }
 
   
 
 
-    namespace om.example.lab4_mkv {
       namespace model {
         interface com.example.lab4_mkv.model.Aggregate {
         }
       }
-    }
+
   
 
 
-    namespace om.example.lab4_mkv {
       namespace model {
         interface com.example.lab4_mkv.model.IIterator {
         }
       }
-    }
 
   
 
 
-    namespace om.example.lab4_mkv {
       namespace model {
         class com.example.lab4_mkv.model.ImageCollection {
         }
       }
-    }
 
   
 

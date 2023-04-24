@@ -2,19 +2,15 @@
 
 title __MODEL's Class Diagram__\n
 
-  namespace  {
-    namespace om.example.lab4_mkv {
+
       namespace model {
         interface com.example.lab4_mkv.model.Aggregate {
             {abstract} + getIterator()
         }
       }
-    }
-  }
+
   
 
-  namespace  {
-    namespace om.example.lab4_mkv {
       namespace model {
         interface com.example.lab4_mkv.model.IIterator {
             {abstract} + hasNext()
@@ -22,12 +18,9 @@ title __MODEL's Class Diagram__\n
             {abstract} + preview()
         }
       }
-    }
-  }
-  
 
-  namespace  {
-    namespace om.example.lab4_mkv {
+
+
       namespace model {
         class com.example.lab4_mkv.model.ImageCollection {
             - bi : Image
@@ -36,12 +29,9 @@ title __MODEL's Class Diagram__\n
             + getIterator()
         }
       }
-    }
-  }
-  
 
-  namespace  {
-    namespace om.example.lab4_mkv {
+
+
       namespace model {
         class com.example.lab4_mkv.model.ImageCollection.ImageIterator {
             - current : int
@@ -51,8 +41,7 @@ title __MODEL's Class Diagram__\n
             - getImage()
         }
       }
-    }
-  }
+
   
 
   com.example.lab4_mkv.model.ImageCollection .up.|> com.example.lab4_mkv.model.Aggregate
