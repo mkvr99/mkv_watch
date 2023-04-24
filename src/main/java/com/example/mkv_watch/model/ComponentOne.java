@@ -16,7 +16,7 @@ public class ComponentOne implements Observer{
     public ComponentOne(Rectangle rectangle, Polygon polygon, Circle circle) {
         this.b = this.r = this.y = 0;
         this.rect = rectangle;
-        this.pol = pol;
+        this.pol = polygon;
         this.cir = circle;
     }
 

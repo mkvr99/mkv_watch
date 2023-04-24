@@ -15,8 +15,8 @@
             fx:controller="com.example.mkv_watch.HelloController"
             prefHeight="400.0" prefWidth="600.0">
     <children>
-        <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="50.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
-        <Polygon fx:id="pol" fill="DODGERBLUE" layoutX="75.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE">
+        <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="50.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Polygon fx:id="polygon" fill="DODGERBLUE" layoutX="75.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE">
         <points>
                 <Double fx:value="-50.0" />
                 <Double fx:value="40.0" />
@@ -26,12 +26,12 @@
                 <Double fx:value="-60.0" />
             </points>
         </Polygon>
-        <Circle fx:id="cir" fill="DODGERBLUE" layoutX="75.0" layoutY="283.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle" fill="DODGERBLUE" layoutX="75.0" layoutY="283.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
         <Button fx:id="but" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onAction="#Tim" text="ON" />
         <Button fx:id="text_button" layoutX="284.0" layoutY="344.0" mnemonicParsing="false" onAction="#text_go" text="ON" />
         <Button fx:id="image_button" layoutX="466.0" layoutY="350.0" mnemonicParsing="false" onAction="#img_go" text="ON" />
-        <TextField fx:id="field" layoutX="226.0" layoutY="67.0" prefHeight="248.0" prefWidth="149.0" />
-        <ImageView fx:id="image" fitHeight="248.0" fitWidth="200.0" layoutX="366.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField fx:id="text" layoutX="226.0" layoutY="67.0" prefHeight="248.0" prefWidth="149.0" />
+        <ImageView fx:id="img" fitHeight="248.0" fitWidth="200.0" layoutX="366.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" />
         <Button fx:id="timer_button" layoutX="261.0" layoutY="14.0" mnemonicParsing="false" onAction="#timer_on" text="Timer_ON" />
     </children>
 

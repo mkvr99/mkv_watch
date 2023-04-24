@@ -63,7 +63,7 @@ public class HelloController implements Initializable {
         this.timer = new TimeServer();
         this.componentOne1 = new ComponentOne(this.rectangle, this.polygon, this.circle);
         this.componentTwo2 = new ComponentTwo(this.text);
-        //this.componentThree3 = new ComponentThree(this.img);
+        this.componentThree3 = new ComponentThree(this.img);
         this.timer.attach(this.componentOne1);
         this.timer.attach(this.componentTwo2);
         this.timer.attach(this.componentThree3);

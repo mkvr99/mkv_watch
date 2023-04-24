@@ -19,9 +19,9 @@ public class ComponentThree implements Observer{
         this.ims = new ArrayList();
 
         for(int i = 1; i < 4; ++i) {
-            this.ims.add(new File("images/im1 (" + i + ").jpg"));
+            this.ims.add(new File("images/im"+i+".jpg"));
             String path = ((File)this.ims.get(i - 1)).getPath();
-            this.new_img("G:\\ProjectsIdea\\mkv_watch\\images\\im (" + i + ").jpg");
+            this.new_img("G:\\ProjectsIdea\\mkv_watch\\images\\im"+i+".jpg");
         }
     }
 
