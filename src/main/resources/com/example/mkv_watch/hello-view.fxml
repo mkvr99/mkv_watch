@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBOX alignment="CENTER" prefHeight="600.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mkv_watch.HelloController">
+    <children>
+        <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="50.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Polygon fx:id="pol" fill="DODGERBLUE" layoutX="75.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Circle fx:id="cir" fill="DODGERBLUE" layoutX="75.0" layoutY="283.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button fx:id="but" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onAction="#Tim" text="ВКЛ" />
+        <Button fx:id="text_button" layoutX="284.0" layoutY="344.0" mnemonicParsing="false" onAction="#textch" text="ВКЛ" />
+        <Button fx:id="image_button" layoutX="466.0" layoutY="350.0" mnemonicParsing="false" onAction="#imgch" text="ВКЛ" />
+        <TextField fx:id="text" layoutX="226.0" layoutY="67.0" prefHeight="248.0" prefWidth="149.0" />
+        <ImageView fx:id="img" fitHeight="248.0" fitWidth="200.0" layoutX="366.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="timer_button" layoutX="261.0" layoutY="14.0" mnemonicParsing="false" onAction="#timer_on" text="Включить таймер" />
+    </children>
+</VBOX>
