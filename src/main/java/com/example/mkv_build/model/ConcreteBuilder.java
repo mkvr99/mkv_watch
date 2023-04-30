@@ -12,11 +12,11 @@ public class ConcreteBuilder implements Builder{
     }
 
     public void drawRectBackground(int x, int y, int height, int width) {
-        this.indicator.getRectangle_background().setX((double)x);
-        this.indicator.getRectangle_background().setY((double)y);
-        this.indicator.getRectangle_background().setHeight((double)height);
-        this.indicator.getRectangle_background().setWidth((double)width);
-        this.indicator.getRectangle_background().setFill(Color.GOLD);
+//        this.indicator.getRectangle_background().setX((double)x);
+//        this.indicator.getRectangle_background().setY((double)y);
+//        this.indicator.getRectangle_background().setHeight((double)height);
+//        this.indicator.getRectangle_background().setWidth((double)width);
+//        this.indicator.getRectangle_background().setFill(Color.GOLD);
     }
 
     public void drawRectIndicator(int x, int y, int height, int width) {

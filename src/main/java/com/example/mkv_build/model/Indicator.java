@@ -7,7 +7,7 @@ import javafx.scene.shape.Rectangle;
 public class Indicator {
     private Pane panel = new Pane();
 
-    private Rectangle rectangle_background = new Rectangle();
+
     private Label label_start = new Label();
     private Label label_point=new Label();
     private Label label_end = new Label();
@@ -50,15 +50,6 @@ public class Indicator {
         this.rectangle_indicator = rectangle_indicator;
     }
 
-    public Rectangle getRectangle_background() {
-
-        return this.rectangle_background;
-    }
-
-    public void setRectangle_background(Rectangle rectangle_background) {
-        this.rectangle_background = rectangle_background;
-    }
-
     public Label getLabel_start() {
         return this.label_start;
     }
@@ -76,7 +67,6 @@ public class Indicator {
 
     public void show(Pane pane) {
         pane.getChildren().add(this.panel);
-        pane.getChildren().add(this.rectangle_background);
         pane.getChildren().add(this.rectangle_indicator);
         pane.getChildren().add(this.label_start);
         //pane.getChildren().add(this.label_point);
